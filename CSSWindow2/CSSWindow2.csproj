@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C790497C-A507-4CD6-8730-53DE23D7B296}</ProjectGuid>
+    <ProjectGuid>{6062BBBF-9ED0-472A-8565-7FAA9CB399E0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSSWindow</RootNamespace>
-    <AssemblyName>CSSWindow</AssemblyName>
+    <RootNamespace>CSSWindow2</RootNamespace>
+    <AssemblyName>CSSWindow2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Checker.cs" />
-    <Compile Include="CheckerManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
